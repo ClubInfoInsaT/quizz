@@ -1,0 +1,195 @@
+@import url('http://fonts.cdnfonts.com/css/sifonn');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: -webkit-linear-gradient(bottom left, #DA07EA, #FB7018), url("meta/background-bubbles.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: saturation;
+}
+
+/* Format du logo */
+
+section.logo img {
+    position: absolute;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    right: 0;
+    left: 0;
+    bottom: 67%;
+
+    width: 100%;
+}
+
+.pseudo {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: auto;
+    bottom: 57%;
+    text-align: center;
+
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 7vw;
+}
+
+input {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    right: 0;
+    left: 0;
+    top: 43%;
+
+    width: 65%;
+    height: 45px;
+
+    /* FONT */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5vw;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    /* BORDER */
+    border-color: #5E17EB;
+    border-radius: 22px;
+    box-shadow: 6px 6px #E40495, 6px 6px 0 2px #5E17EB; 
+}
+
+a:link, a:visited {
+    position: absolute;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    right: 0;
+    left: 0;
+    top: 58%;
+
+    width: 90px;
+    height: 50px;
+
+    /* FONT */
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22pt;
+    color: white;
+    text-decoration: none;
+
+    /* BUTTON */
+    background-color: #E40495;
+    border: 2px solid #5E17EB;
+    border-radius: 22px;
+    box-shadow: 6px 6px #8C52FF, 6px 6px 0 2px #5E17EB; 
+}
+
+
+
+
+
+/* ----------- */
+/* FOR DESKTOP */
+/* ----------- */
+
+@media only screen and (min-width: 650px) {
+
+    html {
+        background-repeat: no-repeat;
+        background-image: -webkit-linear-gradient(bottom left, #DA07EA, #FB7018);
+    }
+
+    section.logo img{
+        position: absolute;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        right: 0;
+        left: 0;
+        top: 5%;
+    
+        width: 30%;
+    }
+
+    .pseudo {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin-top: auto;
+        top: 37%;
+        text-align: center;
+    
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30pt;
+    }
+
+    input {
+        position: absolute;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        right: 0;
+        left: 0;
+        top: 43%;
+    
+        width: 20%;
+        height: 45px;
+    
+        /* FONT */
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20pt;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    
+        /* BORDER */
+        border-color: #5E17EB;
+        border-radius: 22px;
+        box-shadow: 6px 6px #E40495, 6px 6px 0 2px #5E17EB; 
+    }
+
+    a:link, a:visited {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90px;
+        height: 50px;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25pt;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+
+        background-color: #E40495;
+        border: 2px solid #5E17EB;
+        border-radius: 22px;
+        box-shadow: 6px 6px #8C52FF, 6px 6px 0 2px #5E17EB; 
+    }
+
+    .logo-club-info img {
+        position: absolute;
+        width: 2cm;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        bottom: 10vh;
+        text-align: center;
+    }
+
+}  
